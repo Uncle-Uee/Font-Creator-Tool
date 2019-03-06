@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97e38829-849c-4b2c-bcac-6c4246b6e7d7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/FontTool/Editor/FontToolWindow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542653303480" expanded="true" signature="6:84" ph="..." />
+                <marker date="1542653303480" expanded="true" signature="111:14822" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="154:14820" ph="{...}" />
+                <marker date="1542653303480" expanded="false" signature="169:613" ph="CREATE WINDOW" />
+                <marker date="1542653303480" expanded="true" signature="200:272" ph="/// Font Tool Editor Window ... " />
+                <marker date="1542653303480" expanded="true" signature="323:402" ph="/// Static Method Called from Menu ... " />
+                <marker date="1542653303480" expanded="true" signature="483:593" ph="{...}" />
+                <marker date="1542653303480" expanded="false" signature="624:2513" ph="VARIABLES" />
+                <marker date="1542653303480" expanded="true" signature="651:721" ph="/// To Enable Scroll View ... " />
+                <marker date="1542653303480" expanded="true" signature="764:849" ph="/// Show the First and Last ASCII Fields ... " />
+                <marker date="1542653303480" expanded="true" signature="895:964" ph="/// The Name of the Font ... " />
+                <marker date="1542653303480" expanded="true" signature="1008:1074" ph="/// First ASCII Value ... " />
+                <marker date="1542653303480" expanded="true" signature="1117:1182" ph="/// Last ASCII Value ... " />
+                <marker date="1542653303480" expanded="true" signature="1224:1316" ph="/// Space between Each Character A.K.A Advanced ... " />
+                <marker date="1542653303480" expanded="true" signature="1357:1447" ph="/// Horizontal Padding between Each Character ... " />
+                <marker date="1542653303480" expanded="true" signature="1497:1585" ph="/// Vertical Padding Betweem Each Character ... " />
+                <marker date="1542653303480" expanded="true" signature="1633:1731" ph="/// PNG Font Texture Required to make the Custom Font ... " />
+                <marker date="1542653303480" expanded="true" signature="1779:1900" ph="/// Number of Columns - Number of Characters Next to each other Horizontally ... " />
+                <marker date="1542653303480" expanded="true" signature="1940:2055" ph="/// Number of Rows - Number of Characters Below each other Vertically. ... " />
+                <marker date="1542653303480" expanded="true" signature="2092:2182" ph="/// Material Required to make the Custom Font ... " />
+                <marker date="1542653303480" expanded="true" signature="2232:2330" ph="/// Custom or Premade Shader Required by the Material ... " />
+                <marker date="1542653303480" expanded="true" signature="2372:2433" ph="/// Custom Label ... " />
+                <marker date="1542653303480" expanded="false" signature="2524:3532" ph="PROPERTIES" />
+                <marker date="1542653303480" expanded="true" signature="2552:2626" ph="/// Width of the Font Texture ... " />
+                <marker date="1542653303480" expanded="true" signature="2711:2786" ph="/// Height of the Font Texture ... " />
+                <marker date="1542653303480" expanded="true" signature="2873:2946" ph="/// Width of Each Character  ... " />
+                <marker date="1542653303480" expanded="true" signature="3016:3089" ph="/// Height of Each Character ... " />
+                <marker date="1542653303480" expanded="true" signature="3159:3234" ph="/// Total Number of Characters ... " />
+                <marker date="1542653303480" expanded="true" signature="3302:3359" ph="/// UV Width ... " />
+                <marker date="1542653303480" expanded="true" signature="3413:3471" ph="/// UV Height ... " />
+                <marker date="1542653303480" expanded="false" signature="3543:6511" ph="EDITOR WINDOW METHODS" />
+                <marker date="1542653303480" expanded="true" signature="3602:4129" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="4139:4295" ph="/// Display the Font Texture, Shader are components that make up the Material required to make the Custom Font. ... " />
+                <marker date="1542653303480" expanded="true" signature="4329:5484" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="4802:4868" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="5092:5383" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="5495:5597" ph="/// Display the Font Texture and the Custom Font Settings ... " />
+                <marker date="1542653303480" expanded="true" signature="5640:6491" ph="{...}" />
+                <marker date="1542653303480" expanded="false" signature="6522:8705" ph="DATA METHODS" />
+                <marker date="1542653303480" expanded="true" signature="6552:6643" ph="/// Font Texture Field - Texture of Characters ... " />
+                <marker date="1542653303480" expanded="true" signature="6683:6925" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="6936:7045" ph="/// Font Material Field - Material Field used by the Custom Font ... " />
+                <marker date="1542653303480" expanded="true" signature="7086:7330" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="7340:7416" ph="/// Shader used by the Material ... " />
+                <marker date="1542653303480" expanded="true" signature="7451:7724" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="7735:7842" ph="/// Button that Creates a Material from the Texture and Shader ... " />
+                <marker date="1542653303480" expanded="true" signature="7880:8685" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="8383:8675" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="8449:8661" ph="{...}" />
+                <marker date="1542653303480" expanded="false" signature="8716:14441" ph="PREVIEW AND SETTING METHODS" />
+                <marker date="1542653303480" expanded="true" signature="8761:8837" ph="/// The Name of the Custom Font ... " />
+                <marker date="1542653303480" expanded="true" signature="8874:9163" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="9173:9264" ph="/// The First and Last Characters ASCII Values ... " />
+                <marker date="1542653303480" expanded="false" signature="9313:10635" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="9596:10625" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="10646:10726" ph="/// The Number of Columns and Rows. ... " />
+                <marker date="1542653303480" expanded="true" signature="10765:11122" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="11133:11215" ph="/// The Space between the Characters. ... " />
+                <marker date="1542653303480" expanded="true" signature="11252:11566" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="11577:11658" ph="/// Horizontal and Vertical Padding. ... " />
+                <marker date="1542653303480" expanded="true" signature="11695:12033" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="12044:12141" ph="/// Number of Unique Characters that will be Created ... " />
+                <marker date="1542653303480" expanded="true" signature="12174:12391" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="12402:12481" ph="/// Can't really explain this one. ... " />
+                <marker date="1542653303480" expanded="true" signature="12513:12886" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="12897:12981" ph="/// Width and Height of the Characters. ... " />
+                <marker date="1542653303480" expanded="true" signature="13017:13429" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="13440:13555" ph="/// Button that will use the Font Setting Data to make the Custom Font ... " />
+                <marker date="1542653303480" expanded="true" signature="13589:14421" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="13947:14411" ph="{...}" />
+                <marker date="1542653303480" expanded="true" signature="13991:14397" ph="{...}" />
+                <marker date="1542653303480" expanded="false" signature="14452:14814" ph="HELPER METHODS" />
+                <marker date="1542653303480" expanded="true" signature="14484:14645" ph="/// Modify the Label Text and Tooltip ... " />
+                <marker date="1542653303480" expanded="true" signature="14705:14794" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FontTool/Editor/FontToolWindow.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="991" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Atlassian/SourceTree/git_local/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e38829-849c-4b2c-bcac-6c4246b6e7d7" name="Default Changelist" comment="" />
+      <created>1551846370985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551846370985</updated>
+      <workItem from="1551846381210" duration="242000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1551846464791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551846464791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="242000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1296" height="991" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/FontTool/Editor/FontToolWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542653303480" expanded="true" signature="6:84" ph="..." />
+            <marker date="1542653303480" expanded="true" signature="111:14822" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="154:14820" ph="{...}" />
+            <marker date="1542653303480" expanded="false" signature="169:613" ph="CREATE WINDOW" />
+            <marker date="1542653303480" expanded="true" signature="200:272" ph="/// Font Tool Editor Window ... " />
+            <marker date="1542653303480" expanded="true" signature="323:402" ph="/// Static Method Called from Menu ... " />
+            <marker date="1542653303480" expanded="true" signature="483:593" ph="{...}" />
+            <marker date="1542653303480" expanded="false" signature="624:2513" ph="VARIABLES" />
+            <marker date="1542653303480" expanded="true" signature="651:721" ph="/// To Enable Scroll View ... " />
+            <marker date="1542653303480" expanded="true" signature="764:849" ph="/// Show the First and Last ASCII Fields ... " />
+            <marker date="1542653303480" expanded="true" signature="895:964" ph="/// The Name of the Font ... " />
+            <marker date="1542653303480" expanded="true" signature="1008:1074" ph="/// First ASCII Value ... " />
+            <marker date="1542653303480" expanded="true" signature="1117:1182" ph="/// Last ASCII Value ... " />
+            <marker date="1542653303480" expanded="true" signature="1224:1316" ph="/// Space between Each Character A.K.A Advanced ... " />
+            <marker date="1542653303480" expanded="true" signature="1357:1447" ph="/// Horizontal Padding between Each Character ... " />
+            <marker date="1542653303480" expanded="true" signature="1497:1585" ph="/// Vertical Padding Betweem Each Character ... " />
+            <marker date="1542653303480" expanded="true" signature="1633:1731" ph="/// PNG Font Texture Required to make the Custom Font ... " />
+            <marker date="1542653303480" expanded="true" signature="1779:1900" ph="/// Number of Columns - Number of Characters Next to each other Horizontally ... " />
+            <marker date="1542653303480" expanded="true" signature="1940:2055" ph="/// Number of Rows - Number of Characters Below each other Vertically. ... " />
+            <marker date="1542653303480" expanded="true" signature="2092:2182" ph="/// Material Required to make the Custom Font ... " />
+            <marker date="1542653303480" expanded="true" signature="2232:2330" ph="/// Custom or Premade Shader Required by the Material ... " />
+            <marker date="1542653303480" expanded="true" signature="2372:2433" ph="/// Custom Label ... " />
+            <marker date="1542653303480" expanded="false" signature="2524:3532" ph="PROPERTIES" />
+            <marker date="1542653303480" expanded="true" signature="2552:2626" ph="/// Width of the Font Texture ... " />
+            <marker date="1542653303480" expanded="true" signature="2711:2786" ph="/// Height of the Font Texture ... " />
+            <marker date="1542653303480" expanded="true" signature="2873:2946" ph="/// Width of Each Character  ... " />
+            <marker date="1542653303480" expanded="true" signature="3016:3089" ph="/// Height of Each Character ... " />
+            <marker date="1542653303480" expanded="true" signature="3159:3234" ph="/// Total Number of Characters ... " />
+            <marker date="1542653303480" expanded="true" signature="3302:3359" ph="/// UV Width ... " />
+            <marker date="1542653303480" expanded="true" signature="3413:3471" ph="/// UV Height ... " />
+            <marker date="1542653303480" expanded="false" signature="3543:6511" ph="EDITOR WINDOW METHODS" />
+            <marker date="1542653303480" expanded="true" signature="3602:4129" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="4139:4295" ph="/// Display the Font Texture, Shader are components that make up the Material required to make the Custom Font. ... " />
+            <marker date="1542653303480" expanded="true" signature="4329:5484" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="4802:4868" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="5092:5383" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="5495:5597" ph="/// Display the Font Texture and the Custom Font Settings ... " />
+            <marker date="1542653303480" expanded="true" signature="5640:6491" ph="{...}" />
+            <marker date="1542653303480" expanded="false" signature="6522:8705" ph="DATA METHODS" />
+            <marker date="1542653303480" expanded="true" signature="6552:6643" ph="/// Font Texture Field - Texture of Characters ... " />
+            <marker date="1542653303480" expanded="true" signature="6683:6925" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="6936:7045" ph="/// Font Material Field - Material Field used by the Custom Font ... " />
+            <marker date="1542653303480" expanded="true" signature="7086:7330" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="7340:7416" ph="/// Shader used by the Material ... " />
+            <marker date="1542653303480" expanded="true" signature="7451:7724" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="7735:7842" ph="/// Button that Creates a Material from the Texture and Shader ... " />
+            <marker date="1542653303480" expanded="true" signature="7880:8685" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="8383:8675" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="8449:8661" ph="{...}" />
+            <marker date="1542653303480" expanded="false" signature="8716:14441" ph="PREVIEW AND SETTING METHODS" />
+            <marker date="1542653303480" expanded="true" signature="8761:8837" ph="/// The Name of the Custom Font ... " />
+            <marker date="1542653303480" expanded="true" signature="8874:9163" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="9173:9264" ph="/// The First and Last Characters ASCII Values ... " />
+            <marker date="1542653303480" expanded="false" signature="9313:10635" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="9596:10625" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="10646:10726" ph="/// The Number of Columns and Rows. ... " />
+            <marker date="1542653303480" expanded="true" signature="10765:11122" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="11133:11215" ph="/// The Space between the Characters. ... " />
+            <marker date="1542653303480" expanded="true" signature="11252:11566" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="11577:11658" ph="/// Horizontal and Vertical Padding. ... " />
+            <marker date="1542653303480" expanded="true" signature="11695:12033" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="12044:12141" ph="/// Number of Unique Characters that will be Created ... " />
+            <marker date="1542653303480" expanded="true" signature="12174:12391" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="12402:12481" ph="/// Can't really explain this one. ... " />
+            <marker date="1542653303480" expanded="true" signature="12513:12886" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="12897:12981" ph="/// Width and Height of the Characters. ... " />
+            <marker date="1542653303480" expanded="true" signature="13017:13429" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="13440:13555" ph="/// Button that will use the Font Setting Data to make the Custom Font ... " />
+            <marker date="1542653303480" expanded="true" signature="13589:14421" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="13947:14411" ph="{...}" />
+            <marker date="1542653303480" expanded="true" signature="13991:14397" ph="{...}" />
+            <marker date="1542653303480" expanded="false" signature="14452:14814" ph="HELPER METHODS" />
+            <marker date="1542653303480" expanded="true" signature="14484:14645" ph="/// Modify the Label Text and Tooltip ... " />
+            <marker date="1542653303480" expanded="true" signature="14705:14794" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+</project>
